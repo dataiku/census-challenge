@@ -36,8 +36,6 @@ Here is how it could look like:
 Your application should be a single-page web application, i.e. the user must be able to change
 the variable without reloading the page.
  
-There is absolutely no constraint on the technological stack that you might choose to achieve this. Choose whichever you think is best suited for the task. Feel free to modify the code of the server if you need.
-
 ## Final note
 There is absolutely no constraint on the technological stack that you might choose to achieve this. Choose whichever you master and think is best suited for the task.
 

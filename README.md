@@ -2,8 +2,7 @@
 
 ## Some data
 
-You will find a NodeJS server application at the following URL:
-https://dev.dataiku.com/dataiku-front-challenge/census-server-dataiku.zip
+You will find a NodeJS server application at the following URL: https://github.com/dataiku/census-challenge/blob/main/resources/census-server-dataiku.zip
 
 The server exposes a SQLite database containing demographical record data. It provides a REST API with 2 endpoints
 - `GET /api/columns` returns the list of all columns

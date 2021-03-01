@@ -8,7 +8,7 @@ The server exposes a SQLite database containing demographical record data. It pr
 - `GET /api/columns` returns the list of all columns
 - `GET /api/data/<columnName>` returns the list of all unique values found in the database for the column named <columnName>, and for each value its count and the average of the age.
 
-`GET /api/data/sex` returns
+Example: `GET /api/data/sex` returns
 ```
 {
   "count":2,

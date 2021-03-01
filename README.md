@@ -37,8 +37,9 @@ the variable without reloading the page.
  
 There is absolutely no constraint on the technological stack that you might choose to achieve this. Choose whichever you think is best suited for the task. Feel free to modify the code of the server if you need.
 
-## When you are done
-Ideally, please publish your code on Github or Bitbucket to share it with me (account: "apichery" - on both Github and Bitbucket, private repositories are free). Mail would also work. If you have any issue or question regarding the test,
-don't hesitate to contact me!
+## Final note
+There is absolutely no constraint on the technological stack that you might choose to achieve this. Choose whichever you master and think is best suited for the task.
 
-Good luck!
+We are looking for high quality code: typically something that you would put into production and be proud of.
+
+Have fun!

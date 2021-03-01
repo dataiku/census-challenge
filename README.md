@@ -30,7 +30,7 @@ It should also display next to the table, one (or 2) charts displaying the same 
 
 Here is how it could look like:
 
-![charts](https://github.com/dataiku/census-challenge/blob/master/resources/charts.png)
+![charts](https://github.com/dataiku/census-challenge/blob/main/resources/charts.png)
  
 Your application should be a single-page web application, i.e. the user must be able to change
 the variable without reloading the page.

@@ -9,6 +9,7 @@ The server exposes a SQLite database containing demographical record data. It pr
 - `GET /api/data/<columnName>` returns the list of all unique values found in the database for the column named <columnName>, and for each value its count and the average of the age.
 
 `GET /api/data/sex` returns
+```
 {
   "count":2,
   "values":[
@@ -16,6 +17,7 @@ The server exposes a SQLite database containing demographical record data. It pr
     { "id":"Male","count":95539, "average":33 }
    ]
 }
+```
 which means that the database contains only 2 different values in the "sex" column ("Male" and "Female"),
 and that there are 103984 women and 95539 men with a respective age of 36 and 33 on average.
 

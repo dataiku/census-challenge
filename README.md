@@ -1,2 +1,43 @@
-# census-challenge
-About Developer Technical test @ Dataiku
+# Developer Technical Test @ Dataiku
+
+## Some data
+
+You will find a NodeJS server application at the following URL:
+https://dev.dataiku.com/dataiku-front-challenge/census-server-dataiku.zip
+
+The server exposes a SQLite database containing demographical record data. It provides a REST API with 2 endpoints
+- `GET /api/columns` returns the list of all columns
+- `GET /api/data/<columnName>` returns the list of all unique values found in the database for the column named <columnName>, and for each value its count and the average of the age.
+
+`GET /api/data/sex` returns
+{
+  "count":2,
+  "values":[
+    { "id":"Female", "count":103984, "average":36 },
+    { "id":"Male","count":95539, "average":33 }
+   ]
+}
+which means that the database contains only 2 different values in the "sex" column ("Male" and "Female"),
+and that there are 103984 women and 95539 men with a respective age of 36 and 33 on average.
+
+## The challenge
+
+Your goal is to create a small web application to visualize data using this API.
+ 
+The application should allow the user to select a column from the database. It should then display - as a table - for each value of the variable, the count of rows with this value and the average of the "age" value. The values should be sorted by decreasing count. It is OK to clip and only keep the first 100 values for a variable. 
+
+It should also display next to the table, one (or 2) charts displaying the same data.
+
+Here is how it could look like:
+
+ 
+Your application should be a single-page web application, i.e. the user must be able to change
+the variable without reloading the page.
+ 
+There is absolutely no constraint on the technological stack that you might choose to achieve this. Choose whichever you think is best suited for the task. Feel free to modify the code of the server if you need.
+
+## When you are done
+Ideally, please publish your code on Github or Bitbucket to share it with me (account: "apichery" - on both Github and Bitbucket, private repositories are free). Mail would also work. If you have any issue or question regarding the test,
+don't hesitate to contact me!
+
+Good luck!

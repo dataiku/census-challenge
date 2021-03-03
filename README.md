@@ -39,6 +39,6 @@ the variable without reloading the page.
 ## Final note
 There is absolutely no constraint on the technological stack that you might choose to achieve this. Choose whichever you master and think is best suited for the task.
 
-We are looking for high quality code: typically something that you would put into production and be proud of.
+We are looking for **high quality code and visual rendering**: typically something that you would put into production and be proud of.
 
 Have fun!

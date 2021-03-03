@@ -28,10 +28,6 @@ Your goal is to create a small web application to visualize data using this API.
 The application should allow the user to select a column from the database. It should then display - as a table - for each value of the variable, the count of rows with this value and the average of the "age" value. The values should be sorted by decreasing count. It is OK to clip and only keep the first 100 values for a variable. 
 
 It should also display next to the table, one (or 2) charts displaying the same data.
-
-Here is how it could look like:
-
-![charts](https://github.com/dataiku/census-challenge/blob/main/resources/charts.png)
  
 Your application should be a single-page web application, i.e. the user must be able to change
 the variable without reloading the page.
